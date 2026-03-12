@@ -22,7 +22,7 @@ def emotion_detector(text_to_analyse):
     
 
 
-
-text_to_analyse = input('text:' )
-result = emotion_detector(text_to_analyse)
-print (json.dumps(result, indent = 2))
+if __name__ == '__main__':
+    text_to_analyse = input('text:' )
+    result = emotion_detector(text_to_analyse)
+    print (json.dumps(result, indent = 2))
