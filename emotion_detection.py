@@ -1,6 +1,6 @@
 import requests
 
-def sentiment_analyzer(text_to_analyse): 
+def emotion_detector(text_to_analyse): 
 
     url = 'https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict'
     headers = {"grpc-metadata-mm-model-id": "emotion_aggregated-workflow_lang_en_stock"}
@@ -11,5 +11,5 @@ def sentiment_analyzer(text_to_analyse):
 
 
 text_to_analyse = input('text:' )
-result = sentiment_analyzer(text_to_analyse)
+result = emotion_detector(text_to_analyse)
 print (result)

@@ -1,0 +1,4 @@
+theia@theiadocker-msullahshah1:/home/project/final_project$ python3 emotion_detection.py
+text:I am sad 
+{'emotionPredictions': [{'emotion': {'anger': 0.0063314, 'disgust': 0.005223638, 'fear': 0.074054584, 'joy': 0.0046975184, 'sadness': 0.9819713}, 'target': '', 'emotionMentions': [{'span': {'begin': 0, 'end': 9, 'text': 'I am sad '}, 'emotion': {'anger': 0.0063314, 'disgust': 0.005223638, 'fear': 0.074054584, 'joy': 0.0046975184, 'sadness': 0.9819713}}]}], 'producerId': {'name': 'Ensemble Aggregated Emotion Workflow', 'version': '0.0.1'}}
+theia@theiadocker-msullahshah1:/home/project/final_project$ 
