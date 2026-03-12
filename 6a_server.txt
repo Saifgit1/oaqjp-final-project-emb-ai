@@ -23,4 +23,3 @@ def emotion_detector_sent():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
