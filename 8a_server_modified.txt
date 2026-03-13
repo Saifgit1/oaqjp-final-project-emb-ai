@@ -1,5 +1,5 @@
 """This modlue handles the request coming from the HTML page and 
-returns response from the emotion detection functionf"""
+returns response from the emotion detection function"""
 from flask import Flask , request, render_template
 from EmotionDetection import emotion_detector
 app =Flask(__name__)
